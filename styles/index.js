@@ -39,5 +39,6 @@ export const Fullscreen = styled.button`
     height: 50px;
     padding: 5px;
     border-radius: ${(props) => (props.brd ? "10px" : "0 0 5px 5px")};
-    transition:0.5s
+    transition: 0.5s;
+    cursor: pointer;
 `;
